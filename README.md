@@ -17,7 +17,10 @@ The purpose of this project is to analyze PageRank algorithm empirically.
 ### Technologies
 
 * Python
-* Pandas, jupyter
+* pandas
+* Matplotlib
+* Numpy
+* NetworkX
 
 ## Project Description
 
@@ -31,4 +34,4 @@ The purpose of this project is to analyze PageRank algorithm empirically.
 
 ## Featured Notebooks/Analysis/Deliverables
 
-* [README](https://github.com/ans9611/PageRank_Empirical_Analysis)
+* [README](https://github.com/ans9611/PageRank_Empirical_Analysis/../../../../moon_extra_project.ipynb)
