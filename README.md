@@ -1,5 +1,5 @@
 # Evaluation of the Centrality Algorithm, PageRank
-* [FULL PROJECT](https://github.com/ans9611/PageRank_Empirical_Analysis/../../../../moon_project_updated.ipynb)
+* [FULL PROJECT](https://github.com/ans9611/PageRank_Empirical_Analysis/moon_project_updated.ipynb)
 
 ## Introduction
 [1]The trillion dollar algorithm called, $PageRank(PR)$, is used in Google Search to rank web pages that Google's founders Sergey Brin and Larry Page developed in 1998. The PageRank algorithm measures the importance of a webpage by analyzing the quantity and quality of the links that point to it. The PR is an important member of centrality algorithms, graph algorithms. They identify the important nodes in a given graph and those nodes are defined as vertices with many direct or indirect connections. $PageRank(PR)$ finds most important vertices of a graph by analyzing the direct influence of nodes based on proportional rank.
