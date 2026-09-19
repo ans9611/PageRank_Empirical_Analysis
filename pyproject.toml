@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pagerank-empirical"
+version = "0.2.0"
+description = "PageRank implementation with theoretical and empirical complexity analysis"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "networkx>=3.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+report = ["pandas", "matplotlib", "jupyter"]
+dev = ["pytest", "pandas", "matplotlib", "jupyter", "nbconvert"]
+
+[project.scripts]
+pagerank-bench = "pagerank.benchmark:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
